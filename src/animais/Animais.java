@@ -19,6 +19,12 @@ public class Animais {
         javali.comunicar();
         
         System.out.println(javali instanceof Animal);
+        
+        Animal gaivota = new Passarinho();
+        gaivota.movimentar();
+        gaivota.comunicar();
+        
+        System.out.println(gaivota instanceof Animal);
     }
     
 }
